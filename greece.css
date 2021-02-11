@@ -1,0 +1,148 @@
+html {
+    font-family: Verdana;
+    background: url("./submission-2-assets-mockups/assets/greece.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar */
+
+header {
+    height: 80px;
+    overflow: hidden;
+    background-color: #ffffff; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+.navbar__flyaway {
+    color: #2d3982;
+    font-weight: bold;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 1.5%;
+    font-size: 150%;
+}
+
+.navbar__links {
+    display: inline-flex;
+    align-items: right;
+    list-style: none;
+    position: absolute;
+    right: 1%;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 100%;
+    margin-right: 2%;
+   
+         
+}
+
+.navbar__links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2% 8px;
+    justify-content: space-between;  
+    margin-right: 6px;  
+    
+    
+}
+
+.navbar__links a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.underline {
+    border-bottom: solid #e37889;
+    
+}
+
+/* Itinerary section */
+
+.title {
+    margin-top: 9%;
+    margin-left: 5%;
+    color:white;
+    font-size: 60px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+    margin-top: 50px;
+}
+
+.cards__friday {
+    height: 500px;
+    width: 330px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border: solid rgba(0,0,0,0.1) 1px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+
+.cards__saturday {
+    height: 500px;
+    width: 330px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border: solid rgba(0,0,0,0.1) 1px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+
+.cards__sunday {
+    height: 500px;
+    width: 330px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border: solid rgba(0,0,0,0.1) 1px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 20px;
+
+}
+
+.underline-card {
+    border: solid black 0.5px;
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    margin-top: 35px;
+    
+}
+
+.cards__itinerary li {
+    padding: 22px;
+    margin: 15px;
+    background-color: #f0f0f0;
+    font-size: 22px;
+}
+
+.cards__itinerary li:hover {
+    background-color:grey;
+}

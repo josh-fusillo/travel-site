@@ -1,0 +1,131 @@
+html {
+    font-family: Verdana;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+
+/* Nav bar */
+header {
+    height: 80px;
+    overflow: hidden;
+    background-color: #ffffff; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+.navbar__flyaway {
+    color: #2d3982;
+    font-weight: bold;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 1.5%;
+    font-size: 150%;
+    background-color: white;
+}
+
+.navbar__links {
+    display: inline-flex;
+    align-items: right;
+    list-style: none;
+    position: absolute;
+    right: 1%;
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 100%;
+    margin-right: 2%;
+   
+         
+}
+
+.navbar__links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2% 8px;
+    justify-content: space-between;  
+    margin-right: 6px;  
+    
+    
+}
+
+.navbar__links a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.underline {
+    border-bottom: solid #e37889;
+    
+}
+
+/* Submit Form */
+
+.form {
+    margin-top: 150px;
+    
+}
+
+.form__wrapper {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type=text1] {
+    width: 100%;
+    padding: 50px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+    
+  .contact {
+    font-family: "Comic Sans MS";
+    margin-left: 10%;
+    margin-bottom: 2%;
+    color: #101d42;
+    font-size: 150%; 
+  }
+  
+  body {
+    background-color: #f8f8f8;
+  }
+
+.submit {
+  background-color: #5969d0;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    margin: 4px 2px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+}
+
+  
